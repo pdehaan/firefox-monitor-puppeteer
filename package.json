@@ -1,0 +1,25 @@
+{
+  "name": "firefox-monitor-puppeteer",
+  "description": "Scrape the Firefox Monitor site using Puppeteer",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/firefox-monitor-puppeteer/issues"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "puppeteer": "1.12.2"
+  },
+  "homepage": "https://github.com/pdehaan/firefox-monitor-puppeteer#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/firefox-monitor-puppeteer.git"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
